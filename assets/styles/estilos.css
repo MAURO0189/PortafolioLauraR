@@ -1,0 +1,16 @@
+.fuente{
+    font-family: "Luckiest Guy", cursive;
+}
+.fuente2{
+    font-family: "Oswald", sans-serif;
+}
+.fuente3{
+        font: var(--font_2);
+        color: rgb(0, 0, 0);
+        letter-spacing: 0em;
+}
+.fondo{
+    background-image: url("../img/banner1.jpg");
+    padding: 25%;
+    background-attachment: fixed;
+}
