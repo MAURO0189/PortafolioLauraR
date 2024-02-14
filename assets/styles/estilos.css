@@ -8,9 +8,33 @@
         font: var(--font_2);
         color: rgb(0, 0, 0);
         letter-spacing: 0em;
+
 }
-.fondo{
-    background-image: url("../img/banner1.jpg");
+
+.fondoproyecto {
+    background-image: url("../img/BANNER\ SURA.jpg");
     padding: 25%;
     background-attachment: fixed;
+    position: relative;
+    z-index:1;
+}
+
+.fondoproyecto::after{
+    position: absolute;
+    content: "";
+    background-color: black;
+    color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.tamnoUno{
+    font-size: 50px;
+}
+.tamnoDos{
+    font-size: 30px;
 }
